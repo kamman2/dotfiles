@@ -1,0 +1,5 @@
+! Swap @ and " to US-style positions:
+!   Shift+2 = @  (instead of ")
+!   Shift+' = "  (instead of @)
+keycode 11 = 2 at 2 quotedbl twosuperior oneeighth
+keycode 48 = apostrophe quotedbl apostrophe at dead_circumflex dead_caron

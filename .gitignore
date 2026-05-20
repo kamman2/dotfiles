@@ -1,0 +1,16 @@
+# Dotfiles Git Ignore
+# Exclude cache, history, and auto-generated files
+
+# History files (auto-generated)
+.bash_history
+.python_history
+.lesshst
+.sudo_as_admin_successful
+
+# Cache/temp files
+.cache/
+.local/
+.lmstudio-home-pointer
+
+# Broken/incomplete files
+*.broken.conf

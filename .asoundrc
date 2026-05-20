@@ -1,0 +1,26 @@
+# RME ADI-2 DAC hi-res audio configuration
+# Forces 192kHz / 24-bit passthrough
+
+pcm.rme_hires {
+    type rate
+    slave {
+        pcm "hw:1,0"
+        rate 192000
+    }
+    hint {
+        show on
+        description "RME ADI-2 DAC 192kHz Hi-Res"
+    }
+}
+
+pcm.rme_96k {
+    type rate
+    slave {
+        pcm "hw:1,0"
+        rate 96000
+    }
+    hint {
+        show on
+        description "RME ADI-2 DAC 96kHz Hi-Res"
+    }
+}
