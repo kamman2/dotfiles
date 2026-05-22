@@ -110,3 +110,10 @@ if [ -z "$TMUX" ]; then
     fi
 fi
 export PATH="$HOME/go/bin:$PATH"
+
+# opencode
+export PATH=/home/kcresser/.opencode/bin:$PATH
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
